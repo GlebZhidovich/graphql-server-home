@@ -1,0 +1,5 @@
+# import "../fetching/customer/types.graphql"
+
+type Query {
+    customer(id: ID!): Customer!
+}

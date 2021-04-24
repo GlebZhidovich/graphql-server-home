@@ -1,0 +1,13 @@
+enum Gender  {
+    female
+    male
+}
+
+type Customer {
+    id: ID!
+    name: String!
+    age: Int
+    language: String!
+    city: String
+    gender: Gender!
+}
