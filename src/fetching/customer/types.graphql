@@ -11,3 +11,11 @@ type Customer {
     city: String
     gender: Gender!
 }
+
+input CustomerInput {
+    name: String!
+    age: Int
+    language: String!
+    city: String
+    gender: Gender!
+}

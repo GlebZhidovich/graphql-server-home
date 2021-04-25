@@ -2,4 +2,11 @@
 
 type Query {
     customer(id: ID!): Customer!
+    customers: [Customer!]!
+}
+
+type Mutation {
+    addCustomer(customer: CustomerInput!): Customer!
+    updateCustomer(id: ID!, customer: CustomerInput!): Customer!
+    delCustomer(id: ID!): Customer!
 }
